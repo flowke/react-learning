@@ -22,14 +22,14 @@ React 主要是帮助你把你写的页面结构渲染到页面.
 ```
 接下来, 用你的编辑器打开项目, 你会发现里面就已经有一些文件了, 并且它已经做好了配置:
 
-<img src="./img/0-initStruct.png" />
+<img src="./img/0-initStruct-squashed.png" />
 
 在命令行, 使用 `cd hello-react` 就可以进入到项目的文件夹里面, 再运行 `npm start`, 你就会发现浏览器打开了一个新的页面, 项目也会运行起来.
 
 打开`src`文件夹, 找到App.js这个文件, 你会看到类似如下代码:
 
-<img src="./img/0-jsx.png" />
+<img src="./img/0-jsx-squashed.png" />
 
 是不是很像在写 `html`, 你可以修改一下里面的文字, 界面自动刷新了. wow, 你修改了第一行自己的 `react` 代码!!! :collision::fire::baby_chick::baby_chick::tada::tada:
 
-[我们来看看 App.js 发生了什么!](./1-jsx)
+[我们来看看 App.js 发生了什么!](./0-jsx)
