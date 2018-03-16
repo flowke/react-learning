@@ -12,7 +12,7 @@
 
 时间宝贵, 你只要知道 React 是**一个帮助你构建界面的库**就好了. 现在的你还不需要了解除此以外更多其他的信息.
 
-这是它的官网: [English](https://reactjs.org/) [中文](https://doc.react-china.org/) :fries::fries:
+这是它的官网: [English](https://reactjs.org/) | [中文](https://doc.react-china.org/) :fries::fries:
 
 ## 如何使用本教程 :exclamation::exclamation::exclamation:
 
@@ -43,6 +43,37 @@
 即便这样, 你依然可能在学习的过程中遇到某些问题, 你务必相信随着你使用和开发的经验越多, 这些问题都会迎刃而解. 不必在某个时间点纠结太久.
 
 最后要跟你说的是, 本教程不会让你成为一个 react 的大牛. _能够让你成为大牛是你那些无可替代的使用经验 和 碰到各种业务问题时的各种解决方案._
+
+## 学前要求
+
+**以下几点必须具备**
+1. 你必须具备 html, css, JavaScript 基础
+2. 你必须 ES6 基础, 包括:
+    - 声明: let, const
+    - 函数扩展
+    - 模板字符串
+    - spread 与 rest
+    - 变量的解构赋值
+    - class 相关
+    - ES6 模块化语法: import, export
+3. CommonJS 模块化语法
+
+ES6相关基础查看阮一峰的教程: [ECMAScript 6 入门](http://es6.ruanyifeng.com/#docs/let)
+
+**以下几点拥有会更好**
+
+1. webpack 与 babel
+2. npm 或 yarn
+
+可以到这里查看相应信息:
+
+webpack: [English](https://webpack.js.org/configuration/) | [中文](https://doc.webpack-china.org/)
+
+babel: [English](https://babeljs.io/) | [中文](https://babel.docschina.org/)
+
+npm: [English](https://www.npmjs.com/)
+
+yarn: [中文](https://yarnpkg.com/)
 
 ## 提问与建议
 
