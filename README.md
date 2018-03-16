@@ -87,3 +87,4 @@ yarn: [中文](https://yarnpkg.com/)
 
 1. [开始第一次尝试](./Essential/0-HelloWorld.md)
 2. [React 运行起来最基本的组成](./Essential/1-EntryPoint.md)
+3. [认识 JSX](./Essential/2-JSX.md)
