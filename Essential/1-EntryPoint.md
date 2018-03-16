@@ -1,8 +1,8 @@
 # React 运行起来最基本的组成
 
-打开项目的 src 目录下的 index.js 文件, 这个文件就是程序的入口文件, 代码从这里开始.
+打开项目的 `src` 目录下的 `index.js` 文件, 这个文件就是程序的入口文件, 代码从这里开始.
 
-打开 index.js 文件, 你会看到类似这样的代码:
+打开 `index.js` 文件, 你会看到类似这样的代码:
 
 <img src="./img/1-entryCode.png"/>
 
@@ -64,10 +64,13 @@
   document.getElementById('root')
 ```
 
-所以 `ReactDOM.render()` 方法总结起来就已经话:
+所以 `ReactDOM.render()` 方法总结起来一句话就概括:
 
 **把你写的 jsx 结构插入到容器里面, 然后渲染到页面.**
 
 大家可以试试在第一个参数里面像写 html 结构一样写自己想要的东西, 看看会发生什么事情.
+
+点击按钮, 去试试 =>
+[![Edit 2zp1623660](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/2zp1623660)
 
 [下一节, 我们就去揭开 JSX 的神秘面纱! :tada::tada:]()
