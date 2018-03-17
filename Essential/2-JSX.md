@@ -53,10 +53,62 @@ ReactDOM.render(
 
 ```
 
-看看结果, `{}` 里的东西都变成了表达式的返回值. 甚至连 `JSX` 本身也可以被当做表达式.
+看看结果, `{}` 里的东西都变成了表达式的返回值.
 
 <img src="./img/2-jsx1.png"/>
+
+你看到这行代码:
+
+```jsx
+  let vol = <span> good for you!</span>;
+```
+
+甚至连 `JSX` 本身也可以被当做表达式.
 
 你还可以发现别的事情, JSX 可以相互嵌套, 可以写属性.
 
 和 `html` 真的很像.
+
+### 总结
+现在你可以初步这样记住 `JSX`:
+
+- 你可以在里面使用表达式
+- 书写的规则和 `html`很像
+
+**不过我在这里先透露一下后面的内容, 你需要注意以下几点:**
+
+1. 确保每一段独立的 JSX 都有一个最外层的节点包含:
+
+比如: 我们移除最外层的 div,
+
+```js
+  <p>
+    Hello React!! 🍅
+  </p>
+  <span> {5+3} {exp},</span>
+  {vol}
+  <br/>
+  <img src="https://semantic-ui.com/images/avatar2/small/rachel.png" alt="这段代码表现的样子"/>
+```
+你会发现这样就会抛出错误:
+
+<img src="./img/2-jsx2.png" />
+
+翻译过来是: 相邻的 `JSX` 元素 必须被一个闭合的标签包含.
+
+2. 属性需要变成驼峰式, 比如:
+
+```
+  tabindex => tabIndex
+```
+
+3. 关键字的属性需要换成另外的样子, 比如:
+
+    - `class => className`
+    - `for => htmlFor`
+
+OK! :bus: :bus: :bus: 现在你初步知道 JSX 是什么了.
+
+现在你可以选择:
+
+[回到大纲:point_left::point_left:](../README.md课程大纲-:dog::dog::dog:)
