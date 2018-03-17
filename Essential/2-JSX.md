@@ -111,4 +111,4 @@ OK! :bus: :bus: :bus: 现在你初步知道 JSX 是什么了.
 
 现在你可以选择:
 
-[回到大纲:point_left::point_left:](../README.md课程大纲-:dog::dog::dog:)
+[回到大纲:point_left::point_left:](../README.md#outline)

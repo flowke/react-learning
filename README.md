@@ -79,7 +79,7 @@ yarn: [中文](https://yarnpkg.com/)
 
 直接到本项目提交 [issue](https://github.com/flowke/react-learning/issues)
 
-## 课程大纲 :dog::dog::dog:
+## 课程大纲 :dog::dog::dog: <a name="outline"/>
 
 **最新动态**
 
