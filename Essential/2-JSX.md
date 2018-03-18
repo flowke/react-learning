@@ -22,7 +22,7 @@ ReactDOM.render(
 
 你也可以在这里在线调试:
 
-<iframe src="https://codesandbox.io/embed/2zp1623660" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
+[![Edit 2zp1623660](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/2zp1623660)
 
 开始了!:sparkles::sparkles::sparkles:
 
@@ -109,6 +109,8 @@ ReactDOM.render(
 
 OK! :bus: :bus: :bus: 现在你初步知道 JSX 是什么了.
 
-现在你可以选择:
+---
 
+[下一节, 我们会知道, JSX其实没有魔法:star2::star2:](./3-JSX-in-deep.md)
+或
 [回到大纲:point_left::point_left:](../README.md#outline)

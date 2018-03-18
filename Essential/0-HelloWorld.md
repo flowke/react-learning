@@ -33,3 +33,5 @@ React 主要是帮助你把你写的页面结构渲染到页面.
 是不是很像在写 `html`, 你可以修改一下里面的文字, 界面自动刷新了. wow, 你修改了第一行自己的 `react` 代码!!! :collision::fire::baby_chick::baby_chick::tada::tada:
 
 [下一节, 我们来看看项目是从哪开始的!](./1-EntryPoint.md)
+或
+[回到大纲:point_left::point_left:](../README.md#outline)

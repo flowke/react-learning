@@ -1,5 +1,7 @@
 # JSX 文档详情
 
+_这一篇的内容可以在学完基础部分后随时查阅, 初学者可以暂时先跳过._ :rocket::rocket::rocket:
+
 我们之前已经说过一些和 `JSX` 相关的特性:
 
 - `jsx` 可以嵌入表达式
@@ -12,20 +14,15 @@
 
 另外一些小特性你也需要注意:
 
+- 所有的标签, 只要里面没有内容, 都可以自闭和. 如: `<div/>`
 - 自闭和标签结尾处一定要 `/>`.
+
 ---
 
 以下内容来自文档, 我进行了一些简化:
 你可以原版查看: [JSX in deep](https://reactjs.org/docs/jsx-in-depth.html) | [深入 JSX](https://doc.react-china.org/docs/jsx-in-depth.html)
 
 ## React 元素类型
-
-#### 点表示法
-
-```jsx
-  <Layout.Content>
-  </Layout.Content>
-```
 
 #### 内置组件首字母小写
 
@@ -37,6 +34,13 @@
 
 ```jsx
 <Foo/>
+```
+
+#### 点表示法
+
+```jsx
+  <Layout.Content>
+  </Layout.Content>
 ```
 
 #### 标签名不能是表达式
@@ -166,4 +170,5 @@ const props = {firstName: 'Ben', lastName: 'Hector'};
 // 此表达式返回 0, 0会被渲染
 {0 && 'abc'}
 ```
+
 [回到大纲:point_left::point_left:](../README.md#outline)

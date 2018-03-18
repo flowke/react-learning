@@ -64,4 +64,8 @@ React.createElement(
 
 怎么样, 其实使用 `react`, 并没有什么魔法的地方, 本质上, 还是在使用熟悉的 `JavaScript` 而已.
 
+[下一节, 一起去认识组件](./5-Component.md)
+
+[你也可以去一览 JSX 的细节, 也可以在今后再回过头去看](./4-JSX-doc.md)
+
 [回到大纲:point_left::point_left:](../README.md#outline)
