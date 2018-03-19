@@ -109,7 +109,7 @@ const props = {firstName: 'Ben', lastName: 'Hector'};
 ```
 ---
 
-## Children <a name="children">
+## <a name="children"> Children
 
 标签之间的内容 就是 `children`, 自定义标签通过 `props.children` 来访问 `children`.
 

@@ -44,6 +44,16 @@
 
 最后要跟你说的是, 本教程不会让你成为一个 react 的大牛. _能够让你成为大牛是你那些无可替代的使用经验 和 碰到各种业务问题时的各种解决方案._
 
+## 调试代码
+
+大多数时候你需要调试代码, 查看代码运行的效果. 这一点非常重要.
+
+你可以使用 `create-react-app` 生成项目, 在本机调试.
+
+或者, 使用 codesandbox 在线调试: :point_down::point_down:
+
+ [![Edit new](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/new)
+
 ## 学前要求
 
 **以下几点必须具备**
@@ -91,3 +101,4 @@ yarn: [中文](https://yarnpkg.com/)
 4. [理解 JSX](./Essential/3-JSX-in-deep.md)
 5. [JSX 文档详情](./Essential/4-JSX-doc.md) (可选)
 6. [组件](./Essential/5-Component.md)
+7. [Props](./Essential/6-Props.md)

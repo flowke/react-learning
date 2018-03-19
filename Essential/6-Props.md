@@ -1,5 +1,11 @@
 # Props
 
+话说在前, 在我们使用 `create-react-app` 生成的项目上 或 在 codesandbox 上在线调试代码: :point_down::point_down:
+
+ [![Edit new](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/new)
+
+---
+
 组件之间可以传递一些数据, 这些传递的数据叫做 `Props`.
 
 看看如下代码:
@@ -236,6 +242,10 @@ ReactDOM.render(
 **其中一个** `Ment` 组件在渲染的时候, 名字不会显示. 因为 `props.name` 的值是 `undefined`.
 
 这个知识点在: [JSX 文档详情](./4-JSX-doc.md#ess4-ignoreRender) 有提到过, 可以去看看.
+
+在线调试试试: :point_down::point_down:
+
+ [![Edit new](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/new)
 
 
 ---
