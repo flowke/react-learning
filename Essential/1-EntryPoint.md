@@ -74,7 +74,6 @@
 
 [![Edit 2zp1623660](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/2zp1623660)
 
-[下一节, 我们就去揭开 JSX 的神秘面纱! :tada::tada:](./2-JSX.md)
+:point_right::point_right: [下一节, 我们就去揭开 JSX 的神秘面纱! :tada::tada:](./2-JSX.md)
 
-
-[回到大纲:point_left::point_left:](../README.md#outline)
+[回到大纲](../README.md#outline) :point_left::point_left:

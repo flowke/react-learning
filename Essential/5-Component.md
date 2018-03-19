@@ -109,7 +109,7 @@ ReactDOM.render(
 
 ## 两种组件的不同
 
-类组件和函数组件, 表示上都是一样的. 它们有各自的特点特长, **无所谓那种好, 那种不好!**
+类组件和函数组件, 表现上都是一样的. 它们有各自的特点, **无所谓那种好, 那种不好!**
 
 以下内容现在有点超纲了, 但是先熟悉一下也没什么不好.
 
@@ -126,7 +126,7 @@ ReactDOM.render(
 
 组织代码的时候, 你可以把组件存放在一个单独的文件里, 比如, 新建两个文件, `a.js`, `b.js`:
 
-<img src="./img/5-1.png" width="200"/>
+<img src="./img/5-1.png" width="300"/>
 
 你可以把 A 组件写在 a.js 里面:
 
@@ -169,5 +169,8 @@ ReactDOM.render(
 ```
 这样, 项目维护的时候, 就容易多了. :muscle::muscle::muscle:
 
+---
 
-[回到大纲:point_left::point_left:](../README.md#outline)
+:point_right::point_right: [下一节, 看看在组件元素里写属性](./6-Props.md)
+
+[回到大纲](../README.md#outline) :point_left::point_left:

@@ -111,6 +111,6 @@ OK! :bus: :bus: :bus: 现在你初步知道 JSX 是什么了.
 
 ---
 
-[下一节, 我们会知道, JSX其实没有魔法:star2::star2:](./3-JSX-in-deep.md)
-或
-[回到大纲:point_left::point_left:](../README.md#outline)
+:point_right::point_right: [下一节, 我们会知道, JSX其实没有魔法:star2::star2:](./3-JSX-in-deep.md)
+
+[回到大纲](../README.md#outline) :point_left::point_left:

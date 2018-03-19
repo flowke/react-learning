@@ -109,7 +109,7 @@ const props = {firstName: 'Ben', lastName: 'Hector'};
 ```
 ---
 
-## Children
+## Children <a name="children">
 
 标签之间的内容 就是 `children`, 自定义标签通过 `props.children` 来访问 `children`.
 
@@ -153,16 +153,30 @@ const props = {firstName: 'Ben', lastName: 'Hector'};
 ```
 
 #### 关于children需要注意的 :evergreen_tree::evergreen_tree::evergreen_tree::evergreen_tree::evergreen_tree:
-自定义组件的 children 可以是任何数据类型, 你通过 props.children 都可以访问到.
+自定义组件的 `children` 可以是任何数据类型, 你通过 `props.children` 都可以访问到.
 
-这不以为着所有的东西都会被渲染, 仅有以下东西会被渲染:
+啰嗦一句, 因为 `children` 只是一个普普通通的熟悉, 所以你可以传任何东西, 比如: 函数. 这个时候你可以在组件内运行这个函数, 做些别的事情.
+
+所以, 你不一定非得是去渲染 `children`, 也不是所有的东西都是能渲染的. 往下看: :point_down::point_down:
+
+## 能被渲染的东西
+
+不是所有的东西都会被渲染, 仅有以下东西会被渲染:
 
 - React element
 - 字符串
 - 数字
 - 元素是 React node 的数组
 
-**布尔值、Null 和 Undefined 被忽略**
+**布尔值、Null 和 Undefined 被忽略** <a name="ess4-ignoreRender">
+
+也就是说, 如果 `JSX` 里面, 标签之间的表达式返回了以上数据类型, 不会被渲染到页面.
+
+如果要渲染, 先进行字符串转换, 如:
+
+```jsx
+<div> {String(true)} </div>
+```
 
 要注意一点是:
 
@@ -171,4 +185,4 @@ const props = {firstName: 'Ben', lastName: 'Hector'};
 {0 && 'abc'}
 ```
 
-[回到大纲:point_left::point_left:](../README.md#outline)
+[回到大纲](../README.md#outline) :point_left::point_left:
