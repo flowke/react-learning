@@ -149,6 +149,33 @@ function Ment(props) {
 在 :point_right::point_right:[JSX 文档详情](./4-JSX-doc.md#children), 我也提到过 `children`. 可以去看看.
 
 
+#### children 的数据不透明
+
+`children` 的数据类型是不透明的.
+
+它可以是任何数据类型.
+
+此外, 注意以下几点:
+
+这种时候, `children` 是对象: :broken_heart::broken_heart:
+
+```jsx
+<Ment num={9} name="Moli">
+  <p>网速太卡了!!</p>
+</Ment>
+```
+
+这种时候, `children` 是个数组::broken_heart::broken_heart:
+
+```jsx
+<Ment num={9} name="Moli">
+  <p>网速太卡了!!</p>
+  <p>网速太卡了!!</p>
+</Ment>
+```
+
+面对数据不透明的问题, 遍历的时候需要额外注意, 不过, [React.Children](https://doc.react-china.org/docs/react-api.html#react.children) 接口会帮助你.
+
 ---
 
 ## 什么数据可以当成 prop
@@ -249,5 +276,7 @@ ReactDOM.render(
 
 
 ---
+
+:point_right::point_right: [下一节, 看看如何让组件做出改变](./7-State.md)
 
 [回到大纲](../README.md#outline) :point_left::point_left:

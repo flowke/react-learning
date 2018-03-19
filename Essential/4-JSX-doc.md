@@ -155,7 +155,7 @@ const props = {firstName: 'Ben', lastName: 'Hector'};
 #### 关于children需要注意的 :evergreen_tree::evergreen_tree::evergreen_tree::evergreen_tree::evergreen_tree:
 自定义组件的 `children` 可以是任何数据类型, 你通过 `props.children` 都可以访问到.
 
-啰嗦一句, 因为 `children` 只是一个普普通通的熟悉, 所以你可以传任何东西, 比如: 函数. 这个时候你可以在组件内运行这个函数, 做些别的事情.
+啰嗦一句, 因为 `children` 只是一个普普通通的属性, 所以你可以传任何东西, 比如: 函数. 这个时候你可以在组件内运行这个函数, 做些别的事情.
 
 所以, 你不一定非得是去渲染 `children`, 也不是所有的东西都是能渲染的. 往下看: :point_down::point_down:
 
@@ -184,5 +184,7 @@ const props = {firstName: 'Ben', lastName: 'Hector'};
 // 此表达式返回 0, 0会被渲染
 {0 && 'abc'}
 ```
+
+---
 
 [回到大纲](../README.md#outline) :point_left::point_left:
