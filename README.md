@@ -48,7 +48,7 @@
 
 大多数时候你需要调试代码, 查看代码运行的效果. 这一点非常重要.
 
-你可以使用 `create-react-app` 生成项目, 在本机调试.
+你可以使用 [`create-react-app`](create-react-app) 生成项目, 在本机调试.
 
 或者, 使用 codesandbox 在线调试: :point_down::point_down:
 
@@ -109,5 +109,7 @@ yarn: [中文](https://yarnpkg.com/)
 
 
 **React 测试**
+
+1. [测试概述](./Testing/1-Test-intro.md)
 
 **React 同构**
