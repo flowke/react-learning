@@ -64,6 +64,18 @@ React.createElement(
 
 怎么样, 其实使用 `react`, 并没有什么魔法的地方, 本质上, 还是在使用熟悉的 `JavaScript` 而已.
 
+## Virtual DOM
+
+Virtual DOM, 翻译过来也就是虚拟 DOM 的意思.
+
+我们看看 JSX, 它本质上得到的只是一个 JS 对象. 这个对象描述了一份 `DOM` 结构, 哪里有个 `div`, 哪里有个 `span`, 这个 `div` 有什么属性.
+
+一个描述了 `DOM` 结构的对象并不是真正的浏览器的 `DOM` 元素. 它只是 JavaScript 的对象, 存在于计算机的内存里.
+
+**而这个描述 DOM 结构的对象, 我们就叫他 Virtual DOM, 虚拟 DOM**.
+
+---
+
 :point_right::point_right: [下一节, 一起去认识组件](./5-Component.md)
 
 [你也可以去一览 JSX 的细节, 也可以在今后再回过头去看](./4-JSX-doc.md)
