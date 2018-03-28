@@ -52,7 +52,7 @@
 
 或者, 使用 codesandbox 在线调试: :point_down::point_down:
 
- [![Edit new](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/new)
+ [![Edit new](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/new){:target:"_blank"}
 
 ## 学前要求
 
@@ -92,6 +92,30 @@ yarn: [中文](https://yarnpkg.com/)
 ## 课程大纲 :dog::dog::dog: <a name="outline"/>
 
 **最新动态**
+
+**前置基础**
+
+ES6基本语法相关
+
+1. 变量声明:  let , const
+2. 模板字符串
+3. 变量解构赋值
+4. 函数扩展
+5. spread 和 rest
+6. class 相关
+
+常用数组方法
+
+1. map()
+2. filter()
+3. every()
+4. some()
+5. reduce()
+
+模块化基础
+
+1. ES6 模块化语法
+2. CommonJS 模块化语法
 
 **React 核心基础**
 
