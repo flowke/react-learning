@@ -57,7 +57,7 @@ rtnFix(); // 函数返回 {a:1,b:2}
 
 #### this 指向
 
-箭头函数的 this 永远会指向函数定义时的上下文环境:
+  箭头函数的 this 永远会指向函数定义时的上下文环境:
 
 ```js
 let o = {
@@ -68,9 +68,10 @@ let o = {
       return this;
     }
 
-    console.log(this===logEvg());
-    console.log(logEvg());
-    console.log(this);
+    // 当调用 o.func() 后
+    console.log(this===logEvg()); // true
+    console.log(logEvg()); // o 对象
+    console.log(this); // o 对象
 
   }
 }
@@ -92,10 +93,22 @@ let b = {
       return this;
     }
 
-    console.log(this===logEvg());
-    console.log(logEvg());
-    console.log(this);
+    // 当调用 b.func() 后
+    console.log(this===logEvg()); // false
+    console.log(logEvg()); // undefined
+    console.log(this); // b 对象
 
   }
 }
+
+// logEvg() 本来应该返回 window 对象, 但是在
+// 严格模式下, 它是 undefined
+b.func();
 ```
+
+除了 `this` 指向函数定义时所在的上下文环境, 你还要注意以下一些特性:
+
+- 不可以 `new` 它, 它不能被当做构造函数
+- 没有 `arguments` 对象
+
+## 默认参数值
