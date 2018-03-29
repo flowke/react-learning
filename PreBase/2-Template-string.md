@@ -33,6 +33,6 @@ console.log(`你好, ${getName()} !`) // 打印 你好 Jack !
 
 ---
 
-:point_right::point_right:[下一节, 我们看看函数相关的扩展](./3-Function-extend.md)
+:point_right::point_right:[下一节, 我们看看变量的解构赋值](./3-Destruct-var.md)
 
 [回到大纲](../README.md#outline) :point_left::point_left:

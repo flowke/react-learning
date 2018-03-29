@@ -97,12 +97,12 @@ yarn: [中文](https://yarnpkg.com/)
 
 ES6基本语法相关
 
-1. 变量声明:  let , const
-2. 模板字符串
-3. 变量解构赋值
-4. 函数扩展
-5. spread 和 rest
-6. class 相关
+1. [变量声明:  let , const](./PreBase/1-var.md)
+2. [模板字符串](./PreBase/2-Template-string.md)
+3. [变量解构赋值](./PreBase/3-Destruct-var.md)
+4. [函数扩展](./PreBase/4-Function-extend.md)
+5. [spread 和 rest](./PreBase/5-Spread-rest.md)
+6. [class 相关](./PreBase/6-Class.md)
 
 常用数组方法
 
