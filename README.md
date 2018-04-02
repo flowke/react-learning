@@ -114,8 +114,8 @@ ES6基本语法相关
 
 模块化基础
 
-1. ES6 模块化语法
-2. CommonJS 模块化语法
+1. [ES6 模块化语法](./PreBase/module-es6.md)
+2. [CommonJS 模块化语法](./PreBase/module-commonJS.md)
 
 **React 核心基础**
 
