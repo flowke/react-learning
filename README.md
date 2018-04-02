@@ -106,11 +106,11 @@ ES6基本语法相关
 
 常用数组方法
 
-1. map()
-2. filter()
-3. every()
-4. some()
-5. reduce()
+1. [map()](./PreBase/array-map.md)
+2. [filter()](./PreBase/array-filter.md)
+3. [every()](./PreBase/array-every.md)
+4. [some()](./PreBase/array-some.md)
+5. [reduce()](./PreBase/array-reduce.md)
 
 模块化基础
 
