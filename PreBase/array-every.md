@@ -23,7 +23,7 @@ let bool = arr.every( (elt, i)=>{
   // 如果每一次遍历, 回调函数 都返回 true, 那么
   // 那么这一次 every() 返回 true
   // 只要有一次返回 false, 那么 every() 返回 false
-  return elt === i;
+  return elt === i+1;
 } );
 
 console.log(bool); // true

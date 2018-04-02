@@ -44,7 +44,7 @@ class People{
 
 let Joe = new People('Joe');
 
-mask.sing(); // Joe 在唱歌
+Joe.sing(); // Joe 在唱歌
 
 ```
 

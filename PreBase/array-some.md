@@ -6,7 +6,7 @@
 
 [every()](./array-every.md) 是要求回调函数每次都返回 true, `every()` 执行的结果才是 true.
 
-而 `some()` 只要回调函数有一次返回 true, 那么 `some()` 就会返回 false.
+而 `some()` 只要回调函数有一次返回 true, 那么 `some()` 就会返回 true.
 
 ---
 
