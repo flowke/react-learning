@@ -8,7 +8,7 @@
 
 一个模块可以通过 `export` 语法来导出一些东西.
 
-一个模块可以有多个 `export` 命令.
+**一个模块可以有多个 `export` 命令.**
 
 比如有一个 `a.js` 文件.
 
@@ -58,7 +58,7 @@ console.log(appJS); // "app.js"
 
 除了使用 `export` 导出东西, 还可以使用 `export default` 导出东西.
 
-`export default` 一个模块只能出现一次.
+**`export default` 一个模块只能出现一次.**
 
 我们继续以上面的代码举例:
 

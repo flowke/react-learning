@@ -77,7 +77,7 @@ let o = {
 }
 // 当我们运行 o.func() 后
 // 我们知道 o.func 这个函数的 this 执行 o
-// 应为是 o 调用了 func
+// 因为是 o 调用了 func
 // 查看打印的就过我们会知道
 // logEvo 里的 this 也是指向 o,
 // 和它所处在的 func 函数的 this 执行一致

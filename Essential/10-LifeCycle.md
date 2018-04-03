@@ -156,11 +156,11 @@ class A extends React.Component {
   - 在这里可以:
     - 初始化 state
     - 给事件函数绑定 `this`
-- componentWillMount() :metal::metal:
+- `componentWillMount()` :metal::metal:
   - 组件将要挂载时执行
-- render() :metal::metal:
+- `render()` :metal::metal:
   - 返回此刻组件的 JSX 结构
-- componentDidMount() :metal::metal:
+- `componentDidMount()` :metal::metal:
   - 组件挂载完成后执行
   - 在这里可以:
     - 开启定时器
@@ -175,21 +175,21 @@ class A extends React.Component {
 
 #### Updateing(更新) 阶段
 
-- componentWillReceiveProps( nextProps ) :metal::metal:
+- `componentWillReceiveProps( nextProps )` :metal::metal:
   - 父组件更新的时候执行
-- shouldComponentUpdate( nextProps, nextState ) :metal::metal:
+- `shouldComponentUpdate( nextProps, nextState )` :metal::metal:
   - 返回 bool 值, 默认返回 `true`
   - 如果返回 false, 当前组件不会更新, 之后的生命周期函数不执行
   - 性能优化的主要手段之一
-- componentWillUpdate( nextProps, nextState ) :metal::metal:
+- `componentWillUpdate( nextProps, nextState )` :metal::metal:
   - 组件将要更新时执行
-- render() :metal::metal:
-- componentDidUpdate( prevProps, prevState ) :metal::metal:
+- `render()` :metal::metal:
+- `componentDidUpdate( prevProps, prevState )` :metal::metal:
   - 组件更新之后执行
 
 #### Unmounting(卸载) 阶段
 
-- componentWillUnmount() :metal::metal:
+- `componentWillUnmount()` :metal::metal:
   - 组件将要卸载的时候执行
     - 可以在这里:
       - 移除事件绑定
@@ -204,7 +204,7 @@ class A extends React.Component {
 
 新增了一个函数:
 
-- componentDidCatch( error, info )
+- `componentDidCatch( error, info )`
 
 当子组件的生命周期函数(包括 `render()`, `constructor()`和其他生命周期函数)里面抛出了错误, 那么这个函数就会执行.
 

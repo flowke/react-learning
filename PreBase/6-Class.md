@@ -108,6 +108,8 @@ men.fly(); // Jack 飞上了天
 
 ## 成员方法的 this
 
+## 静态方法
+
 ---
 
 [回到大纲](../README.md#outline) :point_left::point_left:
