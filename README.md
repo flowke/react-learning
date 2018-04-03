@@ -130,6 +130,8 @@ ES6基本语法相关
 9. [ State 的重要特性](./Essential/8-State-other-features.md)
 10. [事件系统](./Essential/9-Event.md)
 11. [生命周期](./Essential/10-LifeCycle.md) :exclamation::exclamation::exclamation:
+12. [defaultProps](./Essential/11-defaultProps.md)
+13. [类型检查](./Essential/12-propTypes.md)
 
 
 **React 测试**

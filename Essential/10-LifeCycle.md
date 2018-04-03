@@ -224,6 +224,6 @@ class A extends React.Component {
 
 ---
 
-<!-- :point_right::point_right:[下一节, 我们看看组件的生命周期](./10-LifeCycle.md) -->
+:point_right::point_right:[下一节, 我们看看组件的默认 `prop`](./11-defaultProps.md)
 
 [回到大纲](../README.md#outline) :point_left::point_left:

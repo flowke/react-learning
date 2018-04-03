@@ -50,10 +50,17 @@ PropTypes.object // 对象
 PropTypes.string // 字符串
 PropTypes.symbol // symbol
 
-// 可被渲染的东西: 数字, 字符串, React element(可理解成JSX), 数组(元素可被渲染), null, undefined, bool
+// React node, 可被渲染的东西, 比如:
+// 数字,
+// 字符串,
+// React element(可理解成JSX),
+// 数组(元素是 React node),
+// null,
 PropTypes.node
 
 // React element
+// 比如 <div></div>,
+// 注意: 这个 div 可以有子元素, 但不能跟这个 div 有平级的其他东西
 PropTypes.element
 
 // 某个类的实例
@@ -75,7 +82,7 @@ PropTypes.arrayOf(PropTypes.number)
 // 一个对象, 属性值为指定类型
 PropTypes.objectOf(PropTypes.number)
 
-// 具有某些属性的对象, 属性值指定了类型
+// 一个对象, 如果写了某些属性, 相应的值会接受类型检查
 PropTypes.shape({
   color: PropTypes.string,
   fontSize: PropTypes.number

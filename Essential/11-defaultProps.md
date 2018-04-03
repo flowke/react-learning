@@ -41,3 +41,10 @@ ReactDOM.render(
 可以看到, 我们只需要在组件名下面挂载一个 `defaultProps` 的属性, 我们使用一个对象, 对象里面的属性值就是对应 `props` 的默认属性值.
 
 > 提示: 函数组件同理
+
+
+---
+
+:point_right::point_right:[下一节, 我们看看组件的默认 `prop`](./12-propTypes.md)
+
+[回到大纲](../README.md#outline) :point_left::point_left:
