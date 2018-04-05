@@ -36,3 +36,20 @@ ReactDOMServer.renderToStaticMarkup(element)
 和 `renderToString` 很像, 但它不会创建额外 React 自己使用的 DOM 属性, 比如 data-reactroot. 如果你只把 React 当成一个简单的静态页面生成器就会很有用, 移除额外的属性还能节省一些字节大小.
 
 如果你想在客户端使用 React 与标签做一些交互, 就不要用这个方法. 相反, 你应该在 服务端使用 `renderToString`, 在客户端用 `ReactDOM.hydrate()`.
+
+#### renderToNodeStream()
+```js
+ReactDOMServer.renderToNodeStream(element)
+```
+
+同 `renderToString()`,  但返回的是一个 可读流 .
+
+#### renderToStaticNodeStream()
+
+```js
+ReactDOMServer.renderToStaticNodeStream(element)
+```
+
+同 `renderToStaticMarkup`. 但返回可读流.
+
+> 流是 utf-8 的编码.
