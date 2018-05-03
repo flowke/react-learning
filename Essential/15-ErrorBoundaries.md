@@ -62,3 +62,9 @@ class ErrorBoundary extends React.Component {
 你可以使用[transform-react-jsx-source](https://www.npmjs.com/package/babel-plugin-transform-react-jsx-source) 插件自己开启这个功能. 记住只在开发阶段使用.
 
 >显示在堆栈轨迹中的组件名称取决于Function.name属性。如果您支持旧式浏览器和尚未提供此功能的设备（例如IE 11），请在你打包的代码中包含 `Function.name polyfill`，如function.name-polyfill。或者，您可以在所有组件上显式设置displayName属性。
+
+---
+
+:point_right::point_right:[下一节, Fragments](./16-HOC.md)
+
+[回到大纲](../README.md#outline) :point_left::point_left:

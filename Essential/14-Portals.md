@@ -46,3 +46,9 @@ ReactDOM.createPortal(child, container)
 portal 依然存在 React DOM Tree 中, 所以它的行为和其它的 React child 表现是一样的, 包括事件冒泡.
 
 > 注意: 即便 child 可能被插到不同的 DOM 中, 位置不定. 但是事件流安装 React dom Tree 工作.
+
+---
+
+:point_right::point_right:[下一节, Fragments](./15-ErrorBoundaries.md)
+
+[回到大纲](../README.md#outline) :point_left::point_left:

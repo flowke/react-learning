@@ -105,3 +105,9 @@ function enhance(WrappedComponent) {
 通常会把 props 都传递到 wrappedComp , 但是 ref 不是一个真正的 prop, key 也一样. 这些属性是 React 专门处理的.
 
 解决这个问题的方法是使用 React.forwardRef API（在React 16.3中引入）。
+
+---
+
+:point_right::point_right:[下一节, Fragments](./17-Refs.md)
+
+[回到大纲](../README.md#outline) :point_left::point_left:
